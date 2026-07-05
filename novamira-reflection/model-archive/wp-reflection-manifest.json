@@ -1,0 +1,134 @@
+{
+  "manifest_schema_version": 2,
+  "artifact_schema_version": 1,
+  "generated_at": "2026-07-05T14:26:49+00:00",
+  "repository": "masa9v9komaru-cyber/haru-in-frame-site",
+  "manifest_generated_from_worktree_head": "f82c9916ae5231920a310ebef218cc601fc09620",
+  "source_commit": "f82c9916ae5231920a310ebef218cc601fc09620",
+  "source_private_repo_commit": "f82c9916ae5231920a310ebef218cc601fc09620",
+  "source_commit_description": "Source commit for raw GitHub HTML/CSS artifacts. This is distinct from the manifest file's own commit.",
+  "public_artifact_base_url": "PUBLIC_ARTIFACT_BASE_URL",
+  "source_files": [
+    "generated/wordpress/model-archive-body.html",
+    "generated/wordpress/model-archive-additional.css"
+  ],
+  "dry_run_only": true,
+  "update_policy": {
+    "mode": "draft_only",
+    "dry_run_only": true,
+    "published_post_policy": "compare_only",
+    "custom_css_policy": "compare_only_until_explicit_approval",
+    "update_candidate_requires": {
+      "target_type": "post_content",
+      "required_status": "draft"
+    }
+  },
+  "novamira_minimum_version": "1.8.1",
+  "forbidden_operations": [
+    "publish",
+    "delete",
+    "url_or_slug_change",
+    "wp_global_styles_update",
+    "wp_insert_post",
+    "wp_update_custom_css_post_without_sha_match",
+    "wp_update_post_without_sha_match"
+  ],
+  "targets": [
+    {
+      "id": "model_archive_body",
+      "target_type": "post_content",
+      "target_post_id": 708,
+      "target_slug": "model-archive",
+      "target_parent_id": 707,
+      "required_post_type": "page",
+      "required_status": "publish",
+      "reflection_mode": "compare_only",
+      "update_allowed": false,
+      "update_block_reason": "post_id 708 is already published; use read-only comparison only",
+      "source_file": "generated/wordpress/model-archive-body.html",
+      "required_contains": [
+        "haru-model-archive-outer-v2",
+        "haru-model-archive-v1__grid",
+        "haru-model-archive-card-v2",
+        "haru-model-card-links-v1"
+      ],
+      "must_not_contain": [
+        "<style"
+      ],
+      "allowed_css_scope": null,
+      "source_commit": "f82c9916ae5231920a310ebef218cc601fc09620",
+      "raw_url": "PUBLIC_ARTIFACT_BASE_URL/model-archive-body.html",
+      "artifact_file": "model-archive-body.html",
+      "length_lf": 9242,
+      "length_chars_lf": 9242,
+      "length_bytes_lf": 9858,
+      "sha256_lf": "fcfa2fcef0b8fedd95d66f54d48f54a60ba4d45b951a6276b3bda62796df4a85",
+      "update_gate": {
+        "dry_run_only": true,
+        "effective_mode": "compare_only",
+        "future_update_candidate": false,
+        "future_update_requires_status": "draft",
+        "published_post_update_allowed": false,
+        "site_wide_custom_css_update_allowed": false,
+        "reason": "post_id 708 is already published; use read-only comparison only"
+      },
+      "safety_checks": {
+        "lf_normalized": true,
+        "source_file_exists": true,
+        "required_contains_present": true,
+        "forbidden_patterns_found": []
+      }
+    },
+    {
+      "id": "model_archive_additional_css",
+      "target_type": "custom_css",
+      "target_post_id": null,
+      "target_slug": "custom_css",
+      "target_parent_id": null,
+      "required_post_type": null,
+      "required_status": null,
+      "reflection_mode": "compare_only",
+      "update_allowed": false,
+      "update_block_reason": "custom_css is site-wide; keep compare-only until separate explicit approval",
+      "source_file": "generated/wordpress/model-archive-additional.css",
+      "required_contains": [
+        ".haru-model-archive-outer-v2",
+        ".haru-model-archive-v1__grid",
+        ".haru-model-archive-card-v2",
+        ".haru-model-card-links-v1"
+      ],
+      "must_not_contain": [],
+      "allowed_css_scope": ".haru-model-archive-outer-v2",
+      "source_commit": "f82c9916ae5231920a310ebef218cc601fc09620",
+      "raw_url": "PUBLIC_ARTIFACT_BASE_URL/model-archive-additional.css",
+      "artifact_file": "model-archive-additional.css",
+      "length_lf": 7418,
+      "length_chars_lf": 7418,
+      "length_bytes_lf": 7418,
+      "sha256_lf": "4ee77e31b7de0495ec31f42fce69910f2c5efdf679c0a1080f0f03885450f161",
+      "update_gate": {
+        "dry_run_only": true,
+        "effective_mode": "compare_only",
+        "future_update_candidate": false,
+        "future_update_requires_status": "draft",
+        "published_post_update_allowed": false,
+        "site_wide_custom_css_update_allowed": false,
+        "reason": "custom_css is site-wide; keep compare-only until separate explicit approval"
+      },
+      "safety_checks": {
+        "lf_normalized": true,
+        "source_file_exists": true,
+        "required_contains_present": true,
+        "forbidden_patterns_found": []
+      }
+    }
+  ],
+  "dry_run": {
+    "status": "passed",
+    "errors": {},
+    "wordpress_updates_performed": false,
+    "global_styles_touched": false,
+    "published_pages_update_allowed": false,
+    "draft_targets_only_for_future_updates": true
+  }
+}
