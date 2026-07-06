@@ -26,8 +26,8 @@ This directory is a public-artifact staging area for Novamira reflection.
 
 ## Current manifest summary
 
-- Source private repo commit: `f82c9916ae5231920a310ebef218cc601fc09620`
-- Generated at: `2026-07-05T14:26:49+00:00`
+- Source private repo commit: `7ce21f65896102cbd9945fb14630ebc94d7f12d3`
+- Generated at: `2026-07-06T03:40:45+00:00`
 - Update policy: `draft_only`
 - Published post policy: `compare_only`
 - Custom CSS policy: `compare_only_until_explicit_approval`
