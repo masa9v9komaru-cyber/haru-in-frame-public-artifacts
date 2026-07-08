@@ -15,7 +15,7 @@
       "target_title": "Irontechdoll 158cm A4 \"Misaki\" Silk Glow",
       "required_status": "absent",
       "reflection_mode": "draft_create_test",
-      "create_allowed": true,
+      "create_allowed": false,
       "update_allowed": false,
       "source_file": "irontechdoll-158cm-a4-misaki-silk-glow.html",
       "source_private_repo_commit": "9d6208f73ac908c6eb61743735eea3465df4e195",
@@ -24,17 +24,17 @@
     },
     {
       "id": "irontechdoll-158t-a5-ros-max-yui-silk-glow",
-      "target_type": "draft_page_create_candidate",
+      "target_type": "draft_page_create",
       "target_slug": "irontechdoll-158t-a5-ros-max-yui-silk-glow",
       "target_title": "Irontechdoll 158T A5 ROS MAX \"Yui\" Silk Glow",
-      "required_status": "absent_or_draft",
-      "reflection_mode": "draft_create_prepare",
-      "create_allowed": false,
+      "required_status": "absent",
+      "reflection_mode": "draft_create_test",
+      "create_allowed": true,
       "update_allowed": false,
       "source_file": "irontechdoll-158t-a5-ros-max-yui-silk-glow.html",
       "source_private_repo_commit": "9d6208f73ac908c6eb61743735eea3465df4e195",
       "length_lf": 1707,
-      "sha256_lf": "1ae8fc791f9dfc63b9a043ba7de93ea1da22d28c5228a52de0c548717ccd0469"
+      "sha256_lf": "12eb3d3e5c6a6445255c1d185f7efe8006a0413b2a96800f3d9f33e956121337"
     }
   ],
   "dry_run": {
