@@ -14,15 +14,29 @@
     </p>
   </div>
 
+<style>
+  .haru-subject-story-list-v1--pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 900px) {
+    .haru-subject-story-list-v1--pair {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
   <div class="haru-subject-archive-v1__section">
     <h2>Featured Stories</h2>
 
     <div class="haru-subject-story-list-v1">
-      <a class="haru-subject-story-card-v1" href="https://haru.photo/yui-part-1-when-water-wont-leave-my-hands/">
-        <p class="haru-subject-story-card-v1__part">When Water Won&#39;t Leave My Hands, I... — Part 1</p>
-        <h3>A Night When Only the Sound of Water Keeps Working</h3>
-        <p>Haruによる実写ポートレートの写真物語。</p>
-      </a>
+      <div class="haru-subject-story-item-v1">
+        <a class="haru-subject-story-card-v1" href="https://haru.photo/yui-part-1-when-water-wont-leave-my-hands/">
+          <p class="haru-subject-story-card-v1__part">When Water Won&#39;t Leave My Hands, I... — Part 1</p>
+          <h3>A Night When Only the Sound of Water Keeps Working</h3>
+          <p>Haruによる実写ポートレートの写真物語。</p>
+        </a>
+      </div>
 
     </div>
   </div>
