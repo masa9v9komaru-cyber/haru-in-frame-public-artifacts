@@ -1,3 +1,33 @@
+<!-- wp:html -->
+<style id="haru-subject-archive-story-grid-v2">
+  .haru-subject-story-list-v1 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(0.9rem, 2vw, 1.25rem);
+    margin-top: 1.2rem;
+  }
+
+  .haru-subject-story-list-v1--pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .haru-subject-story-list-v1--single {
+    grid-template-columns: 1fr;
+  }
+
+  .haru-subject-story-item-v1 {
+    min-width: 0;
+  }
+
+  @media (max-width: 900px) {
+    .haru-subject-story-list-v1,
+    .haru-subject-story-list-v1--pair,
+    .haru-subject-story-list-v1--single {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 <section class="haru-subject-archive-v1">
 
   <div class="haru-subject-archive-v1__intro">
@@ -13,18 +43,6 @@
       このページでは、モデルそのものの実写作例を重複掲載するのではなく、このモデルが登場する作品ページ、撮影意図、Model Credit、関連導線を整理します。
     </p>
   </div>
-
-<style>
-  .haru-subject-story-list-v1--pair {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  @media (max-width: 900px) {
-    .haru-subject-story-list-v1--pair {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
 
   <div class="haru-subject-archive-v1__section">
     <h2>Featured Stories</h2>
@@ -83,3 +101,4 @@
   </section>
 
 </section>
+<!-- /wp:html -->

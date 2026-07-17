@@ -3,7 +3,7 @@
   "artifact_schema_version": 1,
   "generated_at": "2026-07-09T09:48:25+00:00",
   "repository": "masa9v9komaru-cyber/haru-in-frame-site",
-  "source_private_repo_commit": "60cf491a6f9fbd0c8f5c6a1cdf069403c40c9ee3",
+  "source_private_repo_commit": "0aed95c11c8d1c6516781fcb793917f9a3a37022",
   "public_artifact_base_url": "PUBLIC_ARTIFACT_BASE_URL",
   "artifact_dir": "subject-archives",
   "dry_run_only": true,
@@ -18,9 +18,9 @@
       "create_allowed": false,
       "update_allowed": false,
       "source_file": "irontechdoll-158cm-a4-misaki-silk-glow.html",
-      "source_private_repo_commit": "60cf491a6f9fbd0c8f5c6a1cdf069403c40c9ee3",
-      "length_lf": 2457,
-      "sha256_lf": "03fdb0d6ee7993508877688b15f544eee2d4331f1133a906aa8da4eb998b180d"
+      "source_private_repo_commit": "0aed95c11c8d1c6516781fcb793917f9a3a37022",
+      "length_lf": 3380,
+      "sha256_lf": "ed8c9f1361953aace0304d3d100f9f42a7c058733359df534e361efe901d3522"
     },
     {
       "id": "irontechdoll-158t-a5-ros-max-yui-silk-glow",
@@ -32,9 +32,9 @@
       "create_allowed": true,
       "update_allowed": false,
       "source_file": "irontechdoll-158t-a5-ros-max-yui-silk-glow.html",
-      "source_private_repo_commit": "60cf491a6f9fbd0c8f5c6a1cdf069403c40c9ee3",
-      "length_lf": 2063,
-      "sha256_lf": "82e17ddd1d0d30ac72185347892ca921b34fc9d02b074566287ac37dda8bb7eb"
+      "source_private_repo_commit": "0aed95c11c8d1c6516781fcb793917f9a3a37022",
+      "length_lf": 2985,
+      "sha256_lf": "e22776a05be87907516e7190894d75549756df9a2490bf853bc3227d8c320256"
     }
   ],
   "dry_run": {
